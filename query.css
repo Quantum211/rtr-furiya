@@ -1,0 +1,179 @@
+/* Width: 57 * 16 = 912px */
+@media (max-width: 57em) {
+  /* .th_score,
+  .th_rank {
+    background: radial-gradient(circle, #fff 50%, #fff2 60%);
+  } */
+  .td_score,
+  .td_rank {
+    background: radial-gradient(
+      circle,
+      #fff 40%,
+      #fff8 60%,
+      #fff2 75%,
+      #fff8 95%
+    );
+  }
+}
+
+/* Width: 50 * 16 = 800px */
+@media (max-width: 50em) {
+  /* .th_score,
+  .th_rank {
+    background: radial-gradient(circle, #fff 75%, #fff2 80%);
+  } */
+  .td_score,
+  .td_rank {
+    background: linear-gradient(90deg, #fff7, #fff 10%, #fff 90%, #fff7);
+  }
+}
+
+/* Width: 40 * 16 = 640px */
+@media (max-width: 40em) {
+  /* .th_score,
+  .th_rank {
+    background: radial-gradient(circle, #fff 75%, #fff2 80%);
+  } */
+  .td_score,
+  .td_rank {
+    background: linear-gradient(90deg, #fff7, #fff 10%, #fff 90%, #fff7);
+  }
+
+  body {
+    font-size: 1.4rem;
+  }
+  thead th:first-child {
+    text-align: end;
+  }
+  thead th:last-child {
+    text-align: start;
+  }
+  .col_640px {
+    display: table-column;
+  }
+  .col_banner {
+    width: 2.5%;
+  }
+  .col_guild {
+    width: 45%;
+    clip-path: border-box;
+    overflow: hidden;
+  }
+  span {
+    font-size: 2rem;
+    clip-path: border-box;
+  }
+}
+
+/* Width: 34 * 16 = 544 */
+@media (max-width: 34em) {
+  /* .th_score,
+  .th_rank {
+    background: radial-gradient(circle, #fff 75%, #fff2 80%);
+  } */
+  .td_score,
+  .td_rank {
+    background: linear-gradient(90deg, #fff7, #fff 10%, #fff 90%, #fff7);
+  }
+
+  body {
+    font-size: 1.2rem;
+  }
+  .col_guild {
+    width: 40%;
+  }
+  span {
+    font-size: 1.6rem;
+  }
+}
+
+/* Width: 29 * 16 = 464px */
+@media (max-width: 29em) {
+  .col_640px,
+  .th_Not464px,
+  .td_server,
+  .td_day {
+    display: none;
+  }
+  .col_464px {
+    display: table-column;
+  }
+  .th_464px,
+  .td__server-day {
+    display: table-cell;
+  }
+  .th_464px {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: #fff;
+  }
+  body {
+    font-size: 1.2rem;
+  }
+  .col__guild {
+    width: 35%;
+    height: 3.2rem;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+
+  .index {
+    display: block;
+  }
+  span {
+    font-size: 1.6rem;
+  }
+  .th__server-day {
+    font-size: 0.8rem;
+  }
+  .th__server {
+    display: block;
+    font-size: 0.8rem;
+  }
+  .td__server {
+    display: block;
+    font-size: 1.2rem;
+  }
+  .td__day {
+    display: block;
+    font-size: 1.2rem;
+  }
+}
+
+/* Width: 24 * 16 = 384px */
+@media (max-width: 24em) {
+  caption,
+  .th_464px {
+    font-size: 1rem;
+  }
+  .th_464px.th__server-day {
+    font-size: 0.8rem;
+  }
+
+  .td_place {
+    font-size: 2.4rem;
+  }
+  .arrow {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .index {
+    font-size: 1.2rem;
+  }
+  .banner {
+    width: 2.4rem;
+    height: 2.6rem;
+  }
+
+  span {
+    font-size: 1.4rem;
+  }
+}
+
+/* Width: 21 * 16 = 336px */
+@media (max-width: 21em) {
+  span {
+    font-size: 1.2rem;
+  }
+}

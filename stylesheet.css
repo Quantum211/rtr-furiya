@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1;
+  background: url("backgrounds/blue.png") 0% 0% / 100vw 100vh;
+  /* background: url("blue.png") 0% 0% / 100vw 100svh; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+a:link,
+a:visited {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 4.4rem;
+  background-color: gold;
+  text-shadow: 0 0 2.4rem black;
+  border: 0.1rem solid beige;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+/* TABLE */
+.table_wrapper {
+  width: calc(100vw - 5%);
+  height: calc(100svh - 10rem);
+  margin: 5rem 2.5%;
+  backdrop-filter: blur(7px);
+  overflow-y: scroll;
+  border: 0.1rem solid black;
+  border-radius: 8px;
+}
+table {
+  clip-path: content-box;
+  /* border: 1px solid blue; */
+  border-radius: 10px;
+  border-spacing: 0px;
+  width: 100%;
+  box-shadow: 1px 1rem 20px #0008;
+}
+caption {
+  text-align: start;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  border-bottom: 0;
+  text-indent: 1rem;
+  font-weight: 700;
+  /* line-height: 0.8; */
+}
+.th_Not464px {
+  position: sticky;
+  z-index: 1;
+  background-color: #fff;
+  top: 0;
+}
+.col_640px {
+  display: none;
+}
+.col_464px,
+.th_464px,
+.td__server-day {
+  display: none;
+}
+
+tr:nth-child(even) {
+  background-color: #fffb;
+}
+/* THEAD */
+thead {
+  background-color: #fff5;
+  /* text-shadow: 0 0 0.1rem #000; */
+}
+th {
+  border-bottom: 1px solid black;
+}
+/* .th_score,
+.th_rank {
+  background: radial-gradient(circle, #fff 30%, #fff2 60%);
+} */
+/* TBODY */
+tbody {
+  overflow-y: scroll;
+  /* border: 1px solid black; */
+}
+tbody tr {
+  text-align: center;
+  clip-path: padding-box;
+  text-shadow: 0 0 0.1rem #000;
+}
+td {
+  background-color: #fff8;
+}
+.td_place {
+  text-align: center;
+  font-size: 3.2rem;
+}
+
+.td_trend {
+  font-size: 0rem;
+  /* text-align: center; */
+}
+.up_arrow {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+.index {
+  /* display: block; */
+  font-size: 1.6rem;
+  text-align: start;
+}
+
+.td_banner {
+  font-size: 0rem;
+}
+.banner {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.td_score,
+.td_rank {
+  /* border: 0.1rem solid #0005; */
+  background: radial-gradient(circle, #fff 0, #fff 35%, #fff2 70%, #fff7 95%);
+}
+span {
+  font-size: 2.4rem;
+}
+/* Trend Properties */
+
+/* Banner */
